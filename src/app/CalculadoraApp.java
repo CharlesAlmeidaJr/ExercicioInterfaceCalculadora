@@ -56,6 +56,7 @@ public class CalculadoraApp {
                     System.out.println("Resultado: " + calculadora.calcular(num1, num2));
                 } catch (Exception e) {
                     System.out.println("Ocorreu um erro, tente novamente.\n" + e.getLocalizedMessage());
+                    opcao = scan.next();
                 }
             }
 
